@@ -11,12 +11,14 @@ int main()
           system("clear");
      #endif
      
-     for (int i = 1; i <= 100; i++)
+     for (int i = 1; i <= 1000; i++)
      {
-          sum += i;
+          sum = sum + i;
+
+          printf("Sum  =%d  , i = %d \n", sum , i);
      }
 
-     printf("Sum of numbers 1-100 is %d \n", sum);
+     printf("Sum of numbers 1-1000 is %d \n", sum);
 
      getchar();
      

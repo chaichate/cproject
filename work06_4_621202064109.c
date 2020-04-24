@@ -25,7 +25,7 @@ int main()
           {
                max = num ;
           }
-
+          
           if(num < min)
           {
                min = num ;
