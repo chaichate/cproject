@@ -17,9 +17,9 @@ int main()
        sum += index ;
        index++;
 
-     } while (index <= 100);
+     } while (index <= 1000);
      
-     printf("Sum of numbers 1-100 is %d \n" , sum);
+     printf("Sum of numbers 1-1000 is %d \n" , sum);
 
      getchar();
 
